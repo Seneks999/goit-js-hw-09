@@ -91,7 +91,7 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
 });
 
-// Додаємо подію для закриття модального вікна при кліку на зображення
+// Додаємо подію для закриття модального вікна при кліку на зображення.
 lightbox.on('shown.simplelightbox', function () {
   const imgElement = document.querySelector('.sl-image img');
   imgElement.addEventListener('click', () => {
